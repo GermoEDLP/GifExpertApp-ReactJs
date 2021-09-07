@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifList /> debe mostrar el componente correctamente 1`] = `
+<div
+  className="card-grid"
+>
+  <h3
+    className="titulo-cat"
+  >
+    One punch
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+    id="loadingText"
+  >
+    Loading...
+  </p>
+</div>
+`;
+
+exports[`Pruebas en <GifList /> debe mostrar items cuando se cargan imágenes 1`] = `
+<div
+  className="card-grid"
+>
+  <h3
+    className="titulo-cat"
+  >
+    One punch
+  </h3>
+  <GifListItem
+    key="ABC"
+    title="Cualquier cosa"
+    url="https://localhost/cualquiercosa.jpg"
+  />
+  <GifListItem
+    key="123"
+    title="Cualquier cosa"
+    url="https://localhost/cualquiercosa.jpg"
+  />
+</div>
+`;
